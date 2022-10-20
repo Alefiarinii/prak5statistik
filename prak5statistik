@@ -1,0 +1,6 @@
+arini=read.delim("clipboard")
+View(arini)
+str(arini)
+
+mean(arini$Pendapatan)
+t.test(arini$Pendapatan, mu=10)
